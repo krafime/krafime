@@ -24,6 +24,7 @@
 
 ### :fire: My Stats :
 
-![Krafime's GitHub stats](https://github-readme-stats.vercel.app/api?username=krafime&show_icons=true&theme=radical)
-
+![Krafime's GitHub stats](https://github-readme-stats.vercel.app/api?username=krafime&show_icons=true&theme=radical) 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=krafime&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+
