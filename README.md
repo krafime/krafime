@@ -31,8 +31,8 @@ const rafi = {
 
 ## 💻 What I'm Up To
 
-- 🔭 **Currently studying** Computer Science at Telkom University
-- 🌱 **Learning** Mobile Development (Flutter, React Native, and more!)
+- 🔭 **Studied** Computer Science at Telkom University
+- 🌱 **Learning** Mobile Development (Flutter, Jetpack Compose, and more!)
 - 🎯 **Building** cool mobile apps and exploring new frameworks
 - 💬 **Ask me about** cats, delicious food, travel stories, or anything tech!
 - ⚡ **Fun fact:** I love traveling and discovering new places
