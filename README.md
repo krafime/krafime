@@ -1,120 +1,232 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100" alt="wave" />
-  <h1>Hi, I'm Rafi 👋</h1>
-  <p>
-    <strong>Mobile Developer</strong> • <strong>Android</strong> • <strong>Flutter</strong> • <strong>Kotlin</strong> • <strong>Java</strong>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e293b,100:334155&height=180&section=header&text=Muhammad%20Rafi%20Irfansyah&fontSize=36&fontColor=f8fafc&animation=fadeIn&fontAlignY=42&desc=Backend%20Software%20Engineer%20%E2%80%A2%20Enterprise%20Microservices%20%E2%80%A2%20Multiplatform%20Mobile&descAlignY=65&descSize=16" alt="Header" width="100%" />
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/irfnsyhh/">
+    <img src="https://img.shields.io/badge/LinkedIn-irfnsyhh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=181717" alt="LinkedIn" />
+  </a>
+  <a href="mailto:mrafiirfansyah16@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=181717" alt="Email" />
+  </a>
+  <a href="https://muhammad-rafi-irfansyah.my.canva.site/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit_Site-00C4CC?style=for-the-badge&logo=canva&logoColor=white&labelColor=181717" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/krafime?tab=followers">
+    <img src="https://img.shields.io/github/followers/krafime?label=Followers&style=for-the-badge&color=2F81F7&logo=github&logoColor=white&labelColor=181717" alt="GitHub Followers" />
+  </a>
+</div>
+
+</div>
+
+---
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+### ⚡ Engineering Profile
+
+I'm a **Backend Software Engineer at PT DAnS Multi Pro**, building and maintaining enterprise microservices for telecommunication platforms. My work spans the full software lifecycle: designing RESTful APIs, implementing core business logic, integrating enterprise systems, remediating security findings, and supporting production deployments.
+
+Before focusing on backend systems, I built cross-platform and native mobile applications with **Kotlin** and **Flutter**—a background that continues to shape how I design clean API contracts and seamless end-to-end user experiences.
+
+- 🎓 **Education:** B.Sc. in Informatics, **Telkom University** *(Cum Laude, GPA 3.71/4.00)*
+- 📍 **Base:** Karawang, West Java, Indonesia
+- 🗣️ **Languages:** Indonesian *(Native)* • English *(Intermediate)*
+
+</td>
+<td width="42%" valign="top">
+
+### 🎯 Current Telemetry
+
+~~~yaml
+engineer: Muhammad Rafi Irfansyah
+pronouns: He/Him
+role: Backend Software Engineer
+organization: PT DAnS Multi Pro
+
+core_focus:
+  - Java (Java 8 -> 21 Migration)
+  - Spring Boot & RESTful APIs
+  - Microservices & RabbitMQ
+  - Enterprise System Integration
+
+also_builds_with:
+  - Kotlin & Compose Multiplatform
+  - Flutter (Android, iOS, Web)
+  - Python (Data & Applied ML)
+
+mission: >
+  Build systems that are reliable,
+  secure, and pleasant to use.
+~~~
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ System Architecture & Tech Stack
+
+~~~mermaid
+flowchart LR
+    subgraph Client["📱 Client Layer (Mobile & Web)"]
+        KMP["Kotlin / Compose Multiplatform"]
+        FLT["Flutter / Dart"]
+    end
+
+    subgraph Core["⚙️ Backend & Microservices"]
+        API["RESTful APIs"]
+        SB["Spring Boot (Java 21)"]
+        SEC["Pentest Remediation & SonarQube"]
+    end
+
+    subgraph Infra["🗄️ Data, Messaging & Infra"]
+        RMQ[["RabbitMQ Broker"]]
+        DB[("PostgreSQL / Oracle")]
+        K8S("Kubernetes / Linux")
+    end
+
+    KMP & FLT -->|HTTPS / JSON| API
+    API --> SB
+    SB --> SEC
+    SB -->|Async Events| RMQ
+    SB -->|Persistence| DB
+    SB -.->|Orchestrated on| K8S
+~~~
+
+## 🛠️ Technologies & Tools
+
+<div align="center">
+  <p align="center">
+    <strong>Backend, Data &amp; DevOps</strong><br/><br/>
+    <img src="https://skillicons.dev/icons?i=java,spring,rabbitmq,postgres,kubernetes,linux,gitlab,git,postman,idea&perline=10" alt="Backend skills" /><br/>
+    <sub>SQL with PostgreSQL &amp; Oracle</sub>
   </p>
-  <img src="https://komarev.com/ghpvc/?username=krafime&style=flat-square&color=blue" alt="Profile Views" />
+  <br/>
+  <p align="center">
+    <strong>Mobile &amp; Others</strong><br/><br/>
+    <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,flutter,dart,firebase,python,js&perline=10" alt="Mobile skills" /><br/>
+    <sub>Android (Jetpack Compose), KMP &amp; Cross-Platform</sub>
+  </p>
 </div>
 
 ---
 
-## About Me
+## 💼 Experience & Key Impact
 
-I'm a Computer Science student at Telkom University who enjoys building clean, user-friendly mobile apps and experimenting with modern app development tools. My work is centered around Android, Flutter, and cross-platform development, with a growing interest in software architecture, product thinking, and AI-driven solutions.
+<table>
+<tr>
+<td width="34%" valign="top">
 
-```javascript
-const rafi = {
-  pronouns: "He/Him",
-  location: "Indonesia",
-  education: "Telkom University",
-  focus: ["Android Development", "Flutter", "Kotlin", "Java", "Python"],
-  interests: ["Mobile Apps", "AI/ML", "Product Design", "Problem Solving"],
-  vibe: "Build apps that feel smooth, useful, and human."
-};
-```
+#### 🟢 PT DAnS Multi Pro
+**Backend Software Engineer**  
+*Nov 2025 – Present*
+
+- Delivered enhancements across **20+ REST APIs** and **6 enterprise microservices** for multi-channel prepaid SIM registration workflows.
+- Migrated legacy microservices from **Java 8 to Java 21**, resolving dependency conflicts and validating with regression testing.
+- Built event-driven services with **Spring Boot & RabbitMQ**, resolved internal/external pentest findings, and improved SonarQube quality gates.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🔵 Duluin (PT Rasa Aksata)
+**Flutter Mobile Intern (HRMS)**  
+*Apr 2025 – Jul 2025*
+
+- Built a cross-platform **HR Management System** for Android, iOS, and Web using Flutter.
+- Integrated REST APIs via **Dio** and engineered key security/utility modules: **Face Detection**, **Fake GPS Detection**, PDF Viewer, and infinite pagination.
+- Collaborated in an **Agile Scrum** product team.
+
+</td>
+<td width="33%" valign="top">
+
+#### 🟣 PDAM (City Water Utility)
+**System Integration Intern**  
+*Aug 2023 – Nov 2023*
+
+- Engineered an Android field-reporting application with **GPS attendance validation** for field officers.
+- Integrated field data streams with a centralized **Looker Dashboard** for management visibility.
+- Analyzed business requirements and designed end-to-end reporting workflows.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Core Skills
+## 🚀 Featured Projects (Bento Showcase)
 
-- Android Development with Kotlin and Jetpack Compose
-- Flutter app development and UI implementation
-- Java-based backend and desktop app projects
-- Python for data, automation, and machine learning experiments
-- Compose Multiplatform and cross-platform app concepts
-- Git, GitHub, Firebase, and app lifecycle patterns
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Backend Engineering (Java)
+- 🔗 **[ops — Online Payment System API](https://github.com/krafime/ops)**  
+  RESTful API mini-project demonstrating payment transaction flows and service modularity in Java.
+- 📦 **[ims — Inventory Management System](https://github.com/krafime/ims)**  
+  Java-based inventory tracking and management project built during PT DAnS Multi Pro training.
+- 🏢 **[ams (Asset Management)](https://github.com/krafime/ams)** & **[tms (Task Management)](https://github.com/krafime/tms)**  
+  Core Java backend repositories focusing on structured domain modeling and CRUD operations.
+
+</td>
+<td width="50%" valign="top">
+
+### 📱 Mobile & Multiplatform
+- 🛍️ **[KMP-ECommerce](https://github.com/krafime/KMP-ECommerce)**  
+  Shared-UI e-commerce application targeting Android, iOS, Desktop, and Web with **Kotlin & Compose Multiplatform**.
+- 🎬 **[CineNook_Flutter](https://github.com/krafime/CineNook_Flutter)**  
+  Movie discovery app featuring search, category filtering, and REST API integration (**Flutter & Dart**).
+- 📚 **[BukuKu-MobileDevelopment](https://github.com/krafime/BukuKu-MobileDevelopment)**  
+  Bangkit 2023 Capstone book recommendation mobile client built with **Kotlin, Firebase, and REST APIs**.
+- 💧 **[dashboard_pdam](https://github.com/krafime/dashboard_pdam)** & 🥫 **[easy_pantry](https://github.com/krafime/easy_pantry)**  
+  Field reporting Android app (Kotlin) & household pantry tracker (Flutter).
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🔬 Click to expand: Data Science, Machine Learning & Publications</b></summary>
+<br/>
+
+| Type | Title / Repository | Stack & Details |
+| :--- | :--- | :--- |
+| 📄 **Journal Publication** | **Music Recommendation System Using Alternating Least Squares Method** | Published in *Indonesia Journal on Computing (Indo-JC)* • May 2024 |
+| 🤖 **Machine Learning** | **[BukuKu-Capstone](https://github.com/krafime/BukuKu-Capstone)** | Machine learning modeling side of the BukuKu Bangkit Capstone (`Python`, `Jupyter`) |
+| 📊 **Ensemble Learning** | **[ML_Project-Base](https://github.com/krafime/ML_Project-Base)** | Implementation and comparative analysis of ensemble learning algorithms (`Python`) |
+| 📡 **IoT & Signal** | **[IOT-Signal-and-Data-Filering](https://github.com/krafime/IOT-Signal-and-Data-Filering)** | IoT sensor signal processing and noise filtering pipelines (`Python`, `Jupyter`) |
+
+</details>
+
+<details>
+<summary><b>🏅 Click to expand: Certifications & Programs</b></summary>
+<br/>
+
+- **Belajar Membuat Aplikasi Flutter untuk Pemula** — *Dicoding Indonesia (09/2024)*
+- **IT Support Specialist** — *Google (07/2024)*
+- **Bangkit Academy 2023 Graduate (Mobile Development Path)** — *Google, GoTo, Traveloka (07/2023)*
+
+</details>
 
 ---
 
-## Tech Stack
+## 📈 GitHub Telemetry
 
 <div align="center">
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=krafime&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krafime&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
 
-### Languages
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-### Mobile & UI
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Compose Multiplatform](https://img.shields.io/badge/Compose%20Multiplatform-5B5BD6?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-
-### Tools
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=krafime&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
 
-## Featured Projects
-
 <div align="center">
-
-[![CineNook_Flutter](https://github-readme-stats.vercel.app/api/pin/?username=krafime&repo=CineNook_Flutter&theme=radical)](https://github.com/krafime/CineNook_Flutter)
-[![KMP-ECommerce](https://github-readme-stats.vercel.app/api/pin/?username=krafime&repo=KMP-ECommerce&theme=radical)](https://github.com/krafime/KMP-ECommerce)
-[![easy_pantry](https://github-readme-stats.vercel.app/api/pin/?username=krafime&repo=easy_pantry&theme=radical)](https://github.com/krafime/easy_pantry)
-[![ams](https://github-readme-stats.vercel.app/api/pin/?username=krafime&repo=ams&theme=radical)](https://github.com/krafime/ams)
-
-</div>
-
----
-
-## GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=krafime&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krafime&layout=compact&langs_count=8&theme=radical" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=krafime&theme=radical" alt="GitHub Streak" />
-</div>
-
----
-
-## Current Focus
-
-- Building mobile apps with clean architecture and smooth UX
-- Exploring Flutter and Kotlin Compose for modern interfaces
-- Learning more about system design and scalable app patterns
-- Experimenting with AI, Python, and data-driven projects
-- Growing my portfolio with real-world product builds
-
----
-
-## Connect With Me
-
-I'm always open to collaboration, learning, and building interesting tech together.
-
-<div align="center">
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfnsyhh/)
-  [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krafime@gmail.com)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?style=for-the-badge&logo=github&logoColor=white)](https://muhammad-rafi-irfansyah.my.canva.site/)
-</div>
-
----
-
-<div align="center">
-  <p><strong>"Code is like humor. When you have to explain it, it's bad."</strong> – Cory House</p>
-  <p>Thanks for visiting my profile! 🚀</p>
+  <p><i>"Code is like humor. When you have to explain it, it's bad."</i> — Cory House</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:334155,50:1e293b,100:0f172a&height=100&section=footer" alt="Footer" width="100%" />
 </div>
